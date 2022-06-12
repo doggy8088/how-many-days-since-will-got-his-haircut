@@ -1,1 +1,0 @@
-![How many days since Henry got his haircut?](https://howmanydayssincehenrygothishaircut.limhenry.xyz/cover.jpg)

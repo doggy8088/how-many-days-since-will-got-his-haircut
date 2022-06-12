@@ -1,10 +1,9 @@
 <meta charset="UTF-8">
-<title>How many days since Henry got his haircut?</title>
+<title>How many days since Will got his haircut?</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="canonical" href="https://howmanydayssincehenrygothishaircut.limhenry.xyz" />
-<meta name="description" content="How many days since Henry got his haircut?">
-<meta property="og:image" content="https://howmanydayssincehenrygothishaircut.limhenry.xyz/cover.jpg">
+<meta name="description" content="How many days since Will got his haircut?">
+<!-- <meta property="og:image" content="https://howmanydayssincehenrygothishaircut.limhenry.xyz/cover.jpg">
 <meta property="og:title" content="How many days since Henry got his haircut?" />
 <meta property="og:description" content="How many days since Henry got his haircut?" />
 <meta property="og:url" content="https://howmanydayssincehenrygothishaircut.limhenry.xyz" />
@@ -12,7 +11,7 @@
 <meta name="twitter:site" content="@henrylim96" />
 <meta name="twitter:title" content="How many days since Henry got his haircut?" />
 <meta name="twitter:description" content="How many days since Henry got his haircut?" />
-<meta name="twitter:image" content="https://howmanydayssincehenrygothishaircut.limhenry.xyz/cover.jpg" />
+<meta name="twitter:image" content="https://howmanydayssincehenrygothishaircut.limhenry.xyz/cover.jpg" /> -->
 <style>
   * {
     box-sizing: border-box;
@@ -60,18 +59,14 @@
   <span id="unit">days</span>
 </h1>
 <footer>
-  <div>&copy; Copyright 2022 Henry Lim</div>
+  <div>&copy; Copyright 2022 Will Huang</div>
   <div>
-    <a href="https://github.com/limhenry/how-many-days-since-henry-got-his-haircut" target="_blank" rel="noopener noreferrer">GitHub</a> &middot;
-    <a href="https://twitter.com/henrylim96" target="_blank" rel="noopener noreferrer">Twitter</a> &middot;
-    <a href="https://limhenry.medium.com/meet-remote-for-google-slides-a-new-way-to-control-your-presentation-slides-c54a6b688674" target="_blank" rel="noopener noreferrer">Remote for Slides</a> &middot;
-    <a href="https://twitter.com/MYVaccineCount" target="_blank" rel="noopener noreferrer">Malaysia Vaccine Tracker</a>
+    <a href="https://github.com/doggy8088/how-many-days-since-will-got-his-haircut" target="_blank" rel="noopener noreferrer">GitHub</a> &middot;
+    <a href="https://twitter.com/Will_Huang" target="_blank" rel="noopener noreferrer">Twitter</a> &middot;
   </div>
 </footer>
 <script>
-  // const timestamp = 1607161500000 // 05.12.2022
-  // const timestamp = 1641363300000 // 05.01.2022
-  const timestamp = 1647582000000    // 18.03.2022
+  const timestamp = new Date('2022-01-22');
   const days = Math.ceil((Date.now() - timestamp) / 86400000)
   document.querySelector('h1 #days').textContent = days
   if (days <= 1) document.querySelector('h1 #unit').textContent = "day"
